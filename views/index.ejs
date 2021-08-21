@@ -1,0 +1,106 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>eCommerce HTML-5 Template </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+		<!-- CSS here -->
+         <%- include('partials/csslink') %>   
+
+   </head>
+
+   <body>
+       
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/logo/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+   
+        <!-- Header Start -->
+     <%- include('partials/header') %>
+        <!-- Header End -->
+
+    <main>
+        <!-- slider Area Start -->
+        <div class="slider-area ">
+            <!-- Mobile Menu -->
+            <div class="slider-active">
+                <div class="single-slider slider-height" style="background-color: aquamarine">
+                    <div class="container">
+                        <div class="row d-flex align-items-center justify-content-between">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 d-none d-md-block">
+                                <div class="hero__img" data-animation="bounceIn" data-delay=".4s">
+                                    <img src="assets/img/hero/hero_man.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-8 col-xs-8" style="margin-top: -40px">
+                                <div class="hero__caption">
+                                    <span data-animation="fadeInRight" data-delay=".4s">60% Discount</span>
+                                    <h1 data-animation="fadeInRight" data-delay=".6s">Package Offer</h1>
+                                    <p data-animation="fadeInRight" data-delay=".8s">Best Offer Ever!</p>
+                                    <!-- Hero-btn -->
+                                    <div class="hero__btn" data-animation="fadeInRight" data-delay="1s">
+                                        <a href="industries.html" class="btn hero-btn">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- slider Area End-->
+        <!-- Latest Products Start -->
+        
+        <!-- Latest Products End -->
+        <section class="feature_part">
+            <div class="container">
+                
+                <div class="row justify-content-center">
+                    <div class="col-lg-5 col-sm-6">
+                        <a href="#">
+                            <div class="single_feature_part abcd">
+                                <img src="assets/img/icon/fogging.png" alt="#">
+                                <h3>Fogging</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-5 col-sm-6">
+                        <a href="/prod/products">
+                            <div class="single_feature_part abcd">
+                                <img src="assets/img/icon/products.svg" alt="#">
+                                
+                                <h3>Products</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <!--footer-->
+    <%- include('partials/footer') %>
+    <!--footer-->
+   
+   
+	<!-- JS here -->
+	<%- include('partials/jslink') %>
+		
+        
+    </body>
+</html>

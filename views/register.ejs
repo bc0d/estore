@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="Stylish Register Form Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements"
+	/>
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- Meta tag Keywords -->
+	<!-- css files -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!-- Style-CSS -->
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<!-- Font-Awesome-Icons-CSS -->
+	<!-- //css files -->
+	<!-- web-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Niconne&amp;subset=latin-ext" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<!-- //web-fonts -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>eCommerce HTML-5 Template </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <!-- CSS here -->
+        <%- include('partials/csslink') %>
+</head>
+
+<body>
+    <!-- Header Start -->
+    <%- include('partials/header') %>
+    <!-- Header Start -->
+    
+
+    <!-- slider Area Start-->
+    <div class="slider-area ">
+        <!-- Mobile Menu -->
+        <div class="single-slider slider-height2 d-flex align-items-center" data-background="assets/img/hero/category.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap text-center">
+                            <h2>Welcome</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider Area End-->
+ 
+    <div class="main-content-agile">
+		<div class="sub-main-w3">
+			<form action="#" method="post">
+				<div class="form-style-agile">
+					<label>Your Name</label>
+					<div class="pom-agile">
+						<span class="fa fa-user-o" aria-hidden="true"></span>
+						<input placeholder="Your Name" name="Name" type="text" required="">
+                    </div>
+                    <div class="form-style-agile">
+                        <label>User ID</label>
+                        <div class="pom-agile">
+                            <span class="fa fa-user-o" aria-hidden="true"></span>
+                            <input placeholder="Choose a login ID" name="LoginID" type="text" required="">
+                        </div>
+                        <div class="form-style-agile">
+                            <label>Phone No</label>
+                            <div class="pom-agile">
+                                <span class="fa fa-user-o" aria-hidden="true"></span>
+                                <input placeholder="Your phone numer" name="Phone" type="text" required="">
+                            </div>
+				</div>
+				<div class="form-style-agile">
+					<label>Email</label>
+					<div class="pom-agile">
+						<span class="fa fa-envelope" aria-hidden="true"></span>
+						<input placeholder="Email" name="Email" type="email" required="">
+					</div>
+                </div>
+                <div class="form-style-agile">
+					<label>Your place </label>
+					<div class="pom-agile">
+						<span class="fa fa-user-o" aria-hidden="true"></span>
+						<input placeholder="your place" name="district" type="text" required="">
+					</div>
+				<div class="form-style-agile">
+					<label>Password</label>
+					<div class="pom-agile">
+						<span class="fa fa-key" aria-hidden="true"></span>
+						<input placeholder="Password" name="Password" type="password" id="password1" required="">
+					</div>
+				</div>
+				<div class="form-style-agile">
+					<label>Confirm Password</label>
+					<div class="pom-agile">
+						<span class="fa fa-key" aria-hidden="true"></span>
+						<input placeholder="Confirm Password" name="Confirm Password" type="password" id="password2" required="">
+					</div>
+				</div>
+				<div class="sub-agile">
+					<input type="checkbox" id="brand1" value="">
+					<label for="brand1">
+						<span></span>I Accept to the Terms & Conditions</label>
+				</div>
+                <input type="submit" value="Register">
+                <br><br>
+			</form>
+		</div>
+		
+	</div>
+	<!-- //content -->
+	
+
+	<!-- password-script -->
+	<script>
+		window.onload = function () {
+			document.getElementById("password1").onchange = validatePassword;
+			document.getElementById("password2").onchange = validatePassword;
+		}
+
+		function validatePassword() {
+			var pass2 = document.getElementById("password2").value;
+			var pass1 = document.getElementById("password1").value;
+			if (pass1 != pass2)
+				document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+			else
+				document.getElementById("password2").setCustomValidity('');
+			//empty string means no validation error
+		}
+	</script>
+	<!-- //password-script -->
+    <!--footer-->
+    <%- include('partials/footer') %>
+    <!--footer-->
+   
+   
+	<!-- JS here -->
+	<%- include('partials/jslink') %>
+
+
+</body>
+<style>/*--
+    Author: W3layouts
+    Author URL: http://w3layouts.com
+    License: Creative Commons Attribution 3.0 Unported
+    License URL: http://creativecommons.org/licenses/by/3.0/
+    --*/
+    
+    /* reset */
+    
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    dl,
+    dt,
+    dd,
+    ol,
+    nav ul,
+    nav li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+        display: block;
+    }
+    
+    ol,
+    ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    blockquote,
+    q {
+        quotes: none;
+    }
+    
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: '';
+        content: none;
+    }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    
+    /* start editing from here */
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .txt-rt {
+        text-align: right;
+    }
+    
+    /* text align right */
+    
+    .txt-lt {
+        text-align: left;
+    }
+    
+    /* text align left */
+    
+    .txt-center {
+        text-align: center;
+    }
+    
+    /* text align center */
+    
+    .float-rt {
+        float: right;
+    }
+    
+    /* float right */
+    
+    .float-lt {
+        float: left;
+    }
+    
+    /* float left */
+    
+    .clear {
+        clear: both;
+    }
+    
+    /* clear float */
+    
+    .pos-relative {
+        position: relative;
+    }
+    
+    /* Position Relative */
+    
+    .pos-absolute {
+        position: absolute;
+    }
+    
+    /* Position Absolute */
+    
+    .vertical-base {
+        vertical-align: baseline;
+    }
+    
+    /* vertical align baseline */
+    
+    .vertical-top {
+        vertical-align: top;
+    }
+    
+    /* vertical align top */
+    
+    nav.vertical ul li {
+        display: block;
+    }
+    
+    /* vertical menu */
+    
+    nav.horizontal ul li {
+        display: inline-block;
+    }
+    
+    /* horizontal menu */
+    
+    img {
+        max-width: 100%;
+    }
+    
+    /*end reset*/
+    
+    body {
+        background: url(gocorona.jpg)no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 100%;
+    }
+    
+    /*--header--*/
+    
+    h1 {
+        font-size: 4em;
+        color: rgb(10, 10, 10);
+        letter-spacing: 4px;
+        text-align: center;
+        margin: 1.5vw 2vw;
+        font-family: 'Niconne', cursive;
+    }
+    
+    h1 span {
+        color: #e2004d;
+    }
+    
+    /*--//header--*/
+    
+    /*-- content --*/
+    
+    .main-content-agile {
+        display: -webkit-flex;
+        display: -webkit-box;
+        display: -moz-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 1.5vw;
+    }
+    
+    .sub-main-w3 {
+        display: -webkit-flex;
+        display: -webkit-box;
+        display: -moz-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 50%;
+        -webkit-flex-basis: 50%;
+    }
+    
+    .img-w3layouts {
+        flex-basis: 38%;
+        -webkit-flex-basis: 38%;
+    }
+    
+    .sub-main-w3 form {
+        max-width: 80%;
+        margin: 0 3vw;
+        padding: 3.5vw;
+        box-sizing: border-box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: rgba(255, 255, 255, 0.19);
+    }
+    
+    .form-style-agile {
+        flex-basis: 100%;
+        -webkit-flex-basis: 100%;
+    }
+    
+    .sub-main-w3 label {
+        color: rgb(14, 13, 13);
+        font-size: 14px;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+    
+    .pom-agile {
+        padding: 11px 15px;
+        background: rgba(8, 8, 8, 0.25);
+        margin-bottom: 16px;
+        display: -webkit-flex;
+        display: -webkit-box;
+        display: -moz-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid #14b5e6;
+        border-top: none;
+    }
+    
+    span.fa {
+        color: #14b5e6;
+        line-height: 1.5;
+        flex-basis: 4%;
+        -webkit-flex-basis: 4%;
+    }
+    
+    .pom-agile input[type="text"],
+    .pom-agile input[type="email"],
+    .pom-agile input[type="password"] {
+        outline: none;
+        font-size: 14px;
+        border: none;
+        background: transparent;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 1px;
+        flex-basis: 95%;
+        -webkit-flex-basis: 95%;
+    }
+    
+    .sub-main-w3 input[type="submit"] {
+        color: rgb(12, 12, 12);
+        background:#14b5e6;
+        border: none;
+        padding: 13px 0;
+        margin-top: 30px;
+        outline: none;
+        width: 100%;
+        font-size: 16px;
+        cursor: pointer;
+        letter-spacing: 1px;
+        font-family: 'Open Sans', sans-serif;
+        -webkit-transition: 0.5s all;
+        -o-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -ms-transition: 0.5s all;
+        transition: 0.5s all;
+    }
+    
+    .sub-main-w3 input[type="submit"]:hover {
+        background: #000;
+        -webkit-transition: 0.5s all;
+        -o-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -ms-transition: 0.5s all;
+        transition: 0.5s all;
+    }
+    
+    .sub-agile {
+        float: left;
+    }
+    
+    .sub-agile input[type="checkbox"] {
+        display: none;
+    }
+    
+    .sub-agile input[type="checkbox"]+label {
+        position: relative;
+        padding-left: 25px;
+        display: inline-block;
+        font-size: .9em;
+        color: rgb(20, 20, 20);
+        cursor: pointer;
+    }
+    
+    .sub-agile input[type="checkbox"]+label span:first-child {
+        width: 13px;
+        height: 13px;
+        display: inline-block;
+        border: 1px solid rgb(31, 29, 29);
+        position: absolute;
+        top: 1px;
+        left: 2px;
+    }
+    
+    .sub-agile input[type="checkbox"]:checked+label span:first-child:before {
+        content: "";
+        background: url(tick.png)no-repeat;
+        position: absolute;
+        left: 2px;
+        top: 1px;
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+    }
+    
+    .sub-w3l a {
+        float: right;
+        font-size: .9em;
+        color: rgb(12, 11, 11);
+        letter-spacing: 1px;
+    }
+    
+    /*--placeholder-color--*/
+    
+    ::-webkit-input-placeholder {
+        color: #fff;
+    }
+    
+    :-moz-placeholder {
+        /* Firefox 18- */
+        color: #fff;
+    }
+    
+    ::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #fff;
+    }
+    
+    :-ms-input-placeholder {
+        color: #fff;
+    }
+    
+    /*--//placeholder-color--*/
+    
+    /*--//main--*/
+    
+    /*--footer--*/
+    
+    .footer {
+        margin: 1.4vw .3vw;
+    }
+    
+    .footer h2 {
+        font-size: 14px;
+        color: #fff;
+        letter-spacing: 2px;
+        text-align: center;
+        line-height: 1.8;
+    }
+    
+    .footer h2 a {
+        color: #14b5e6;
+        -webkit-transition: 0.5s all;
+        -o-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -ms-transition: 0.5s all;
+        transition: 0.5s all;
+    }
+    
+    .footer h2 a:hover {
+        color: #fff;
+        -webkit-transition: 0.5s all;
+        -o-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -ms-transition: 0.5s all;
+        transition: 0.5s all;
+    }
+    
+    /*--//footer--*/
+    
+    /*--responsive--*/
+    
+    @media(max-width: 1920px) {
+        h1 {
+            font-size: 4vw;
+        }
+    }
+    
+    @media(max-width: 1280px) {
+        .sub-main-w3 form {
+            max-width: 86%;
+        }
+    }
+    
+    @media(max-width: 1080px) {
+        .sub-main-w3 form {
+            max-width: 92%;
+        }
+        h1 {
+            font-size: 5vw;
+        }
+        span.fa {
+            flex-basis: 6%;
+            -webkit-flex-basis: 6%;
+        }
+        .pom-agile input[type="text"],
+        .pom-agile input[type="email"],
+        .pom-agile input[type="password"] {
+            flex-basis: 93%;
+            -webkit-flex-basis: 93%;
+        }
+        .sub-main-w3 input[type="submit"] {
+            font-size: 15px;
+        }
+    }
+    
+    @media(max-width: 991px) {
+        .img-w3layouts {
+            flex-basis: 42%;
+            -webkit-flex-basis: 42%;
+        }
+    }
+    
+    @media(max-width: 900px) {
+        .main-content-agile {
+            display: block;
+        }
+        .sub-main-w3 form {
+            max-width: 66%;
+        }
+        .img-w3layouts {
+            flex-basis: 100%;
+            -webkit-flex-basis: 100%;
+            text-align: center;
+            margin-top: 3vw;
+        }
+        .img-w3layouts img {
+            width: 56%;
+        }
+        h1 {
+            font-size: 6.5vw;
+            letter-spacing: 2px;
+            margin: 1.5vw 2vw 2.5vw;
+        }
+        span.fa {
+            flex-basis: 4%;
+            -webkit-flex-basis: 4%;
+        }
+        .pom-agile input[type="text"],
+        .pom-agile input[type="email"],
+        .pom-agile input[type="password"] {
+            flex-basis: 95%;
+            -webkit-flex-basis: 95%;
+        }
+    }
+    
+    @media(max-width: 768px) {
+        .sub-main-w3 form {
+            max-width: 72%;
+        }
+    }
+    
+    @media(max-width: 667px) {
+        .pom-agile input[type="text"],
+        .pom-agile input[type="email"],
+        .pom-agile input[type="password"] {
+            flex-basis: 94%;
+            -webkit-flex-basis: 94%;
+        }
+        .img-w3layouts img {
+            width: 64%;
+        }
+        .footer h2 {
+            letter-spacing: 1px;
+        }
+    }
+    
+    @media(max-width: 600px) {
+        h1 {
+            font-size: 8vw;
+        }
+        .sub-main-w3 label {
+            font-size: 13px;
+        }
+        .pom-agile input[type="text"],
+        .pom-agile input[type="email"],
+        .pom-agile input[type="password"] {
+            font-size: 13px;
+        }
+        .pom-agile {
+            padding: 10px 10px;
+            margin-bottom: 12px;
+        }
+        .sub-agile input[type="checkbox"]+label {
+            font-size: .8em;
+        }
+        .sub-main-w3 input[type="submit"] {
+            padding: 12px 0;
+            margin-top: 20px;
+        }
+        .footer h2 {
+            font-size: 13px;
+        }
+        .footer {
+            margin: 2.4vw .3vw;
+        }
+    }
+    
+    @media(max-width: 480px) {
+        .sub-main-w3 form {
+            max-width: 94%;
+        }
+        .img-w3layouts img {
+            width: 80%;
+        }
+    }
+    
+    @media(max-width: 414px) {
+        .pom-agile input[type="text"],
+        .pom-agile input[type="email"],
+        .pom-agile input[type="password"] {
+            flex-basis: 93%;
+            -webkit-flex-basis: 93%;
+        }
+        .img-w3layouts {
+            margin-top: 5vw;
+        }
+    }
+    
+    @media(max-width: 384px) {
+        h1 {
+            font-size: 9.5vw;
+            margin: 2vw 2vw 3vw;
+        }
+    }
+    
+    @media(max-width: 375px) {
+        .sub-main-w3 form {
+            max-width: 100%;
+        }
+        .pom-agile input[type="text"],
+        .pom-agile input[type="email"],
+        .pom-agile input[type="password"] {
+            flex-basis: 92%;
+            -webkit-flex-basis: 92%;
+        }
+        .sub-agile input[type="checkbox"]+label {
+            font-size: .7em;
+        }
+        .sub-main-w3 input[type="submit"] {
+            padding: 10px 0;
+            margin-top: 14px;
+            font-size: 14px;
+        }
+    }
+    
+    @media(max-width: 320px) {
+        .sub-main-w3 label {
+            font-size: 12px;
+            margin-bottom: 8px;
+        }
+        .pom-agile {
+            padding: 9px 10px;
+            margin-bottom: 10px;
+        }
+        .pom-agile input[type="text"],
+        .pom-agile input[type="email"],
+        .pom-agile input[type="password"] {
+            flex-basis: 90%;
+            -webkit-flex-basis: 90%;
+            font-size: 12px;
+        }
+        .img-w3layouts img {
+            width: 100%;
+        }
+    }
+    
+    /*--//responsive--*/</style>
+    
+</html>

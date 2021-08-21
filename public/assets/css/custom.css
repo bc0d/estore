@@ -1,0 +1,20 @@
+.abcd {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    box-shadow: 5px 5px 20px 4px rgba(127, 255, 212, 0.5);
+}
+
+
+
+@media (max-width:400px) {
+    .abcd {
+        height: auto;
+        box-shadow: 4px 4px 15px 3px rgba(127, 255, 212, 0.4);
+    }
+}
+/*rgba(127, 255, 212, 1)modified
+rgba(161, 240, 203, 0.4)first*/
